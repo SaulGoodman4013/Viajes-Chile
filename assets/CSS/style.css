@@ -1,3 +1,11 @@
 html {
     font-family: 'Roboto Condensed', sans-serif;
 }
+
+.navlogo{
+width: 20px;
+}
+
+.navcolor {
+    background-color: transparent;
+}
