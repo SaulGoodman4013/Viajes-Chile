@@ -3,9 +3,29 @@ html {
 }
 
 .navlogo{
-width: 20px;
+width: 35px;
+background-color: transparent;
+;
 }
 
-.navcolor {
-    background-color: transparent;
+.navbarcolor {
+    background-color:transparent;
+}
+
+a {
+    direction: none;
+    color: white;
+    font-weight: bold;
+}
+a:hover {
+    color: white;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+hr { 
+    border-top: 1px solid darkcyan;
 }
