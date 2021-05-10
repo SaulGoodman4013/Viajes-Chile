@@ -29,23 +29,36 @@
 <body>
 
     <!--NAV  BAR-->
-    <nav class="fixed-top">
-        <a class="navbar-brand m-2 " href="#"><img class="navlogo" src="Assets/img/viajes.svg">
-    <ul class="nav justify-content-end ">
-        <li class="nav-item">
-            <a class="nav-link active" href="#">Inicio</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Quienes Somos</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Destacados</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Contacto</a>
-        </li>
+    <div class="navbarcolor fixed-top display-5 ">
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand pl-5" href="#"><img class="navlogo " src="Assets/img/viajes.svg ">Viajes Chile</a>
+            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            
+            <ul class="navbar-nav ml-auto pr-5">
+                <li class="nav-item active">
+                    <a class="nav-link lead" href="#">Inicio <span class="sr-only"> (current)</span></a>
+                </li>
+            
+                    <li class="nav-item">
+                    <a class="nav-link lead " href="#">Quienes Somos</a>
+                </li>
+
+                    <li class="nav-item">
+                    <a class="nav-link lead" href="#">Destacados</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link lead" href="#">Contacto</a>
+                </li>
+
             </ul>
+        </div>
     </nav>
+</div>
 
 
 
@@ -105,32 +118,48 @@
     <h1 id="encabezado" class="text-center display-5">Destacados</h1>
     <hr>
     <!--TARJETAS-CARDS-->
-<div class="row row-cols-4 p">
+<div class="row">
+    <div class="col-sm-3">
     <div class="card bg-info m-1" style="width: 18rem ;">
         <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
-        <div class="card-body col">
+        <div class="card-body">
+            <h5 class="card-title">Lorem ipsum dolor sit.</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
     </div>
-    <div class="card bg-info m-1" style="width: 18rem  ;">
-        <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
-        <div class="card-body col">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-    </div>
-    <div class="card bg-info m-1" style="width: 18rem  ;">
-        <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
-        <div class="card-body col">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-    </div>
-    <div class="card bg-info m-1" style="width: 18rem  ;">
-        <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
-        <div class="card-body col">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
     </div>
 
+    <div class="col-sm-3">
+    <div class="card bg-info m-1" style="width: 18rem  ;">
+        <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Montañitas Bien Bonitas</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+    </div>
+    </div>
+
+    <div class="col-sm-3">
+    <div class="card bg-info m-1" style="width: 18rem  ;">
+        <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Lorem ipsum dolor sit amet consectetur.
+            </h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+    </div>
+    </div>
+    <div class="col-sm-3">
+    <div class="card bg-info m-1" style="width: 18rem  ;">
+        <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Lorem ipsum dolor sit amet consectetur.</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+    </div>
+    </div>
+</div>
+</section>
 
 
 </div>
